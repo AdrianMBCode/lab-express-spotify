@@ -16,6 +16,16 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.artis-anchor  {
+    background-color: rgb(104, 99, 99);
+    width: 320px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
 .artist-img {
     height: 350px;
     width: 320px;
@@ -27,16 +37,7 @@ p {
 a {
     text-decoration: none;
     color: white;
-    padding: 6px 12px;
     background-color: rgb(247, 75, 75);
-    border-radius: 8px;
-}
-.artis-anchor  {
-    background-color: rgb(104, 99, 99);
-    width: 320px;
-    height: 90px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
+    padding: 6px 12px;
+    border-radius: 10px;
 }
