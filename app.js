@@ -61,7 +61,7 @@ app.get("/tracks/:trackId", (req, res) => {
   spotifyApi
     .getAlbumTracks(trackId)
     .then(album => {
-      album.body.styles = "track.css"
+      album.body.styles = "tracks.css"
       res.render("tracks",  album.body );
     })
     .catch((err) =>

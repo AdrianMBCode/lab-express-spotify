@@ -1,9 +1,12 @@
-<h1>Tracks</h1>
-{{#each items}}
-<ul>
-    <li>
-      <h2>{{name}}</h2>
-      <audio controls src="{{preview_url}}"></audio>
-    </li>
-</ul>
-{{/each}}
+<table id="table">
+  <tr class="head">
+    <th>Title</th>
+    <th>Track</th>
+  </tr>
+  {{#each items}}
+    <tr class="list">
+      <th><p>{{name}}</p></th>
+      <th><audio controls src="{{preview_url}}"><ahref="{{preview_url}}"></a></audio></th>
+    </tr>
+  {{/each}}
+</table>

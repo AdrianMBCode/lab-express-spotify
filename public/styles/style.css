@@ -28,11 +28,11 @@ body {
   padding: 10px 25px;
   background-color: rgb(247, 75, 75);
   color: white;
-  border: 0;
+  border: none;
 }
 #input-id {
   padding: 10px 10px;
   width: 400px;
-  border: 0;
+  border: none;
 }
 
